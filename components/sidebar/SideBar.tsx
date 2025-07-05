@@ -113,7 +113,7 @@ const SideBar = () => {
             </p>
           </div>
           <div className="flex justify-center  mt-2">
-            <button className="bg-[#54473F]  py-2 px-7 rounded-xl text-[#e1d0c6]">
+            <button className="bg-[#54473F] cursor-pointer py-2 px-7 rounded-xl text-[#e1d0c6]">
               Ask Buddy Now
             </button>
           </div>

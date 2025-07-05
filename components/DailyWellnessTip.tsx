@@ -93,7 +93,7 @@ const DailyWellnessTip = () => {
               <div>
                 <p className="font-bold">{tip.text}</p>
               </div>
-              <button className="px-4 text-[#332a24] rounded-4xl mt-2 bg-[#e1d0c6]">
+              <button className="px-4 text-[#332a24] rounded-4xl mt-2 hover:bg-[#9A7E6F] cursor-pointer bg-[#e1d0c6]">
                 Learn More
               </button>
             </div>
