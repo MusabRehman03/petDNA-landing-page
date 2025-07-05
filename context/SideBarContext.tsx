@@ -7,7 +7,7 @@ setIsOpen: (newState:boolean)=>void
 }
 const sidebarContext = createContext<sidebarContextType|null>(null)
 export function SidebarContextProvider({ children }: { children: React.ReactNode}){
-    const [isOpen,setIsOpen]= useState(false)
+    const [isOpen,setIsOpen]= useState(true)
     return(
         <sidebarContext.Provider value={{isOpen,setIsOpen}}>
             {children}

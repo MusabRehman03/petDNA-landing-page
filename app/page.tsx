@@ -9,7 +9,7 @@ export default function Home() {
   const {isOpen, setIsOpen} =  useSideBarContext()
   return (
 
-      <div className={`${isOpen?'md:ml-40':'-ml-0'} w-[100%] h-[100%] space-y-15 `}>
+      <div className={`${isOpen?'md:ml-80':'-ml-0'}  space-y-15 `}>
         <div className="flex flex-wrap items-center  justify-center mt-20">
           <DailyWellnessTip />
           <PersonalizedNutritionPlan />

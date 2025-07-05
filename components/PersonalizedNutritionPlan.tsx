@@ -77,7 +77,7 @@ const PersonalizedNutritionPlan = () => {
         <div className="flex flex-wrap overflow-y-auto space-y-3 space-x-3 mt-2">
           {macroNutrientTarget.map((t) => {
             return (
-              <div key={t.id} className="bg-[#d2baad] text-[#332a24] w-24 h-24 rounded-2xl text-sm space-y-1 flex flex-col justify-center items-center">
+              <div key={t.id} className="bg-[#e1d0c6] text-[#332a24] w-24 h-24 rounded-2xl text-sm space-y-1 flex flex-col justify-center items-center">
                 <h1 className="font-bold">{t.heading}</h1>
                 <p>{t.text}</p>
               </div>
@@ -90,7 +90,7 @@ const PersonalizedNutritionPlan = () => {
         <div className=" flex flex-wrap  space-x-3 space-y-3 mt-2">
           {topFood.map((t) => {
             return (
-              <div key={t.id} className="bg-[#d2baad] text-[#332a24] w-24 h-24 rounded-2xl text-sm space-y-1 flex flex-col justify-center items-center">
+              <div key={t.id} className="bg-[#e1d0c6] text-[#332a24] w-24 h-24 rounded-2xl text-sm space-y-1 flex flex-col justify-center items-center">
                 <h1 className="font-bold">{t.icon}</h1>
                 <p>{t.text}</p>
               </div>
