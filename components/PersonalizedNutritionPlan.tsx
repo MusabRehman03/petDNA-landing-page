@@ -4,7 +4,7 @@ import { IoFish } from "react-icons/io5";
 import { GiPumpkin } from "react-icons/gi";
 import { GiSteak, GiPotato } from "react-icons/gi";
 const PersonalizedNutritionPlan = () => {
-  let macroNutrientTarget = [
+  const macroNutrientTarget = [
     {
         id:1,
       heading: "820 Kcal",
@@ -26,7 +26,7 @@ const PersonalizedNutritionPlan = () => {
       text: "Carbs",
     },
   ];
-  let topFood = [
+  const topFood = [
     {
         id:1,
       icon: <IoFish style={{fontSize:'1.2rem'}}/>,
@@ -70,7 +70,7 @@ const PersonalizedNutritionPlan = () => {
         <LuDog style={{ color: "#9A7E6F", fontSize: "1.5rem" }} />
       </div>
       <p className="my-2 w-[70%] ">
-        Tailored meal guidance to match your pet's DNA and lifestyle
+        Tailored meal guidance to match your pet&apos;s DNA and lifestyle
       </p>
       <div>
         <h1 className="mt-4 font-semibold">Macronutrient Target:</h1>

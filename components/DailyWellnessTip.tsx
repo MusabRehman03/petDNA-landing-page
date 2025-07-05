@@ -10,7 +10,7 @@ import {
   GiMeditation,
   GiRunningShoe,
 } from "react-icons/gi";
-import { idID } from "@mui/material/locale";
+
 const DailyWellnessTip = () => {
   const tips = [
     {
@@ -81,7 +81,7 @@ const DailyWellnessTip = () => {
       <div className="w-[430px] md:w-[550px] text-[#332a24] border-white shadow-xl py-8 px-10 overflow-y-auto h-[550px] shadow-[#9A7E6F] rounded-3xl m-5">
         <h1 className="font-bold">Daily Wellness Tips</h1>
         <p className="my-2 w-[80%]">
-          Quick, science-backed actions to improve your pet's health today
+          Quick, science-backed actions to improve your pet&apos;s health today
         </p>
         {tips.map((tip) => {
           return (

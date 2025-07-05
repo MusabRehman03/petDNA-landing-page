@@ -22,7 +22,7 @@ const SideBar = () => {
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  },[]);
   return (
     <div
       className={`${
@@ -109,7 +109,7 @@ const SideBar = () => {
             </p>
             <p className="text-center text-sm">Have questions about</p>
             <p className="text-center text-sm">
-              your pet's health or behaviour
+              your pet&apos;s health or behaviour
             </p>
           </div>
           <div className="flex justify-center  mt-2">

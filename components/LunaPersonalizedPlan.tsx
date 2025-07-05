@@ -4,10 +4,10 @@ const LunaPersonalizedPlan = () => {
   return (
     <div className="w-[1150px] overflow-x-auto border-white text-[#332a24] shadow-xl p-8  h-[470px] shadow-[#9A7E6F] rounded-3xl mx-5 mb-5">
       <div className="flex justify-between">
-        <h1 className="font-bold ">Luna's Personalized Suppliment Plan</h1>
+        <h1 className="font-bold ">Luna&apos;s Personalized Suppliment Plan</h1>
       </div>
       <p className="my-2 w-[70%] ">
-        This plan is based on your pet's DNA profile
+        This plan is based on your pet&apos;s DNA profile
       </p>
       <div className="w-[1070px] overflow-x-auto">
       <table>

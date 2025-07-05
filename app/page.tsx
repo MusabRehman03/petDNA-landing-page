@@ -6,7 +6,7 @@ import { useSideBarContext } from "@/context/SideBarContext";
 
 
 export default function Home() {
-  const {isOpen, setIsOpen} =  useSideBarContext()
+  const {isOpen} =  useSideBarContext()
   return (
 
       <div className={`${isOpen?'md:ml-80':'-ml-0'}  space-y-15 `}>
