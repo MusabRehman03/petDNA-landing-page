@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import SideBar from "@/components/sidebar/SideBar";
-import AppBar from "@/components/appbar/AppBar";
+import SideBar from "@/components/layout/SideBar";
+import AppBar from "@/components/layout/AppBar";
 import { useSideBarContext } from "@/context/SideBarContext";
 const Layout = ({
   children,
