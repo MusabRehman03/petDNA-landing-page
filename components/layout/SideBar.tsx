@@ -25,9 +25,9 @@ const SideBar = () => {
   },[]);
   return (
     <div
-      className={`${
-        !isOpen && "hidden"
-      } fixed top-0 let-0 z-50 inset-0 overflow-y-auto  w-[300px] h-screen p-5 text-white bg-[#54473F] flex flex-col justify-between`}
+      className={` ${
+        isOpen ? "translate-x-0 " : "-translate-x-full"
+      } fixed top-0 let-0 z-50 inset-0 overflow-y-auto  transform transition-transform duration-300 ease-in-out w-[300px] h-screen p-5 text-white bg-[#54473F] flex flex-col justify-between`}
     >
       <div>
         <div id="logo" className=" flex justify-between">
