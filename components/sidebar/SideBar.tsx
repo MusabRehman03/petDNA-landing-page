@@ -27,7 +27,7 @@ const SideBar = () => {
     <div
       className={`${
         !isOpen && "hidden"
-      } fixed top-0 let-0 z-50 overflow-y-auto  w-[300px] h-screen p-5 text-white bg-[#54473F] flex flex-col justify-between`}
+      } fixed top-0 let-0 z-50 inset-0 overflow-y-auto  w-[300px] h-screen p-5 text-white bg-[#54473F] flex flex-col justify-between`}
     >
       <div>
         <div id="logo" className=" flex justify-between">
@@ -57,43 +57,43 @@ const SideBar = () => {
             </div>
           </div>
         </div>
-        <div className="mt-10 space-y-2 ">
+        <div className="mt-8 space-y-2 ">
           <p className="text-[#e1d0c6]">Main Menu</p>
           <div className="flex space-x-2 px-2 py-0.5">
-            <FaHome style={{ fontSize: "20px" }} />
+            <FaHome style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white  font-semibold">Overview</p>
           </div>
           <div className="flex space-x-2 px-2 py-0.5">
-            <FaDna style={{ fontSize: "20px" }} />
+            <FaDna style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white text- font-semibold">DNA</p>
           </div>
-          <div className="flex space-x-2 bg-[#e1d0c6] px-2 py-0.5 rounded-xl text-[#54473F]">
-            <FaHeartbeat style={{ fontSize: "20px" }} />
+          <div className="flex space-x-2 bg-[#e1d0c6] px-2 py-2 rounded-xl text-[#54473F]">
+            <FaHeartbeat style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="   font-semibold">Care</p>
           </div>
           <div className="flex space-x-2 px-2 py-0.5">
-            <PiPackage style={{ fontSize: "20px" }} />
+            <PiPackage style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white  font-semibold">Orders</p>
           </div>
           <div className="flex space-x-2 px-2 py-0.5">
-            <FaUserPlus style={{ fontSize: "20px" }} />
+            <FaUserPlus style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white  font-semibold">Referrals</p>
           </div>
         </div>
         <div className="bg-[#e1d0c6] mt-8 h-0.5"></div>
-        <div className="mt-10 space-y-2 ">
+        <div className="mt-8 space-y-2 ">
           <p className="text-[#e1d0c6]">Preferences</p>
           <div className="flex space-x-2 px-2 py-0.5">
-            <IoMdSettings style={{ fontSize: "20px" }} />
+            <IoMdSettings style={{ fontSize: "20px", marginTop:'2px' }} />
             <p className="text-white  font-semibold">Settings</p>
           </div>
           <div className="flex space-x-2 px-2 py-0.5">
-            <RiCustomerService2Fill style={{ fontSize: "20px" }} />
+            <RiCustomerService2Fill style={{ fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white  font-semibold">Support & Help</p>
           </div>
 
           <div className="flex space-x-2 px-2 py-0.5">
-            <LuLogOut style={{ fontSize: "20px" }} />
+            <LuLogOut style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white  font-semibold">Logout</p>
           </div>
         </div>
@@ -119,6 +119,7 @@ const SideBar = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

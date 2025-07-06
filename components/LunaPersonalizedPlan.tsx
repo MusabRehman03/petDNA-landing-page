@@ -2,7 +2,7 @@ import React from "react";
 
 const LunaPersonalizedPlan = () => {
   return (
-    <div className="w-[1150px] overflow-x-auto border-white text-[#332a24] shadow-xl p-8  h-[470px] shadow-[#9A7E6F] rounded-3xl mx-5 mb-5">
+    <div className="w-[1140px] overflow-x-auto border-white text-[#332a24] shadow p-8  md:h-[470px] h-[510px] shadow-[#9A7E6F] rounded-2xl -mt-8 mb-5 mx-5">
       <div className="flex justify-between">
         <h1 className="font-bold ">Luna&apos;s Personalized Suppliment Plan</h1>
       </div>

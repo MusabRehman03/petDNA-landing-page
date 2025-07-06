@@ -62,9 +62,14 @@ const PersonalizedNutritionPlan = () => {
         icon: <GiPumpkin style={{fontSize:'1.2rem'}}/>,
         text: "Pumpkin",
       },
+      {
+        id:8,
+      icon: < GiSteak style={{fontSize:'1.2rem'}}/>,
+      text: "steak",
+    },
   ];
   return (
-    <div className="w-[430px] md:w-[550px] border-white shadow-xl p-8 text-[#332a24] overflow-y-auto h-[550px]  shadow-[#9A7E6F] rounded-3xl m-5">
+    <div className="w-[430px] md:w-[550px] border-white shadow p-8 text-[#332a24] overflow-y-auto md:h-[600px] h-[700px]  shadow-[#9A7E6F] rounded-2xl m-5">
       <div className="flex justify-between">
         <h1 className="font-bold ">Personalized Nutrition Plan</h1>
         <LuDog style={{ color: "#9A7E6F", fontSize: "1.5rem" }} />
@@ -73,8 +78,8 @@ const PersonalizedNutritionPlan = () => {
         Tailored meal guidance to match your pet&apos;s DNA and lifestyle
       </p>
       <div>
-        <h1 className="mt-4 font-semibold">Macronutrient Target:</h1>
-        <div className="flex flex-wrap overflow-y-auto space-y-3 space-x-3 mt-2">
+        <h1 className="mt-7 font-semibold">Macronutrient Target:</h1>
+        <div className="flex flex-wrap justify-center overflow-y-auto gap-4 mt-5">
           {macroNutrientTarget.map((t) => {
             return (
               <div key={t.id} className="bg-[#e1d0c6] text-[#332a24] w-24 h-24 rounded-2xl text-sm space-y-1 flex flex-col justify-center items-center">
@@ -86,8 +91,8 @@ const PersonalizedNutritionPlan = () => {
         </div>
       </div>
       <div>
-        <h1 className="mt-4 font-semibold">Top Food:</h1>
-        <div className=" flex flex-wrap  space-x-3 space-y-3 mt-2">
+        <h1 className="mt-7 font-semibold">Top Food:</h1>
+        <div className=" flex flex-wrap justify-center gap-4  mt-5">
           {topFood.map((t) => {
             return (
               <div key={t.id} className="bg-[#e1d0c6] text-[#332a24] w-24 h-24 rounded-2xl text-sm space-y-1 flex flex-col justify-center items-center">

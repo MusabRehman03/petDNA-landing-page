@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SidebarContextProvider } from "@/context/SideBarContext";
-import SideBar from "@/components/sidebar/SideBar";
-import AppBar from "@/components/appbar/AppBar";
+import Layout from "@/components/layout/Layout";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,17 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <SidebarContextProvider>
-          <div className="flex">
-            <SideBar />
-            <AppBar />
-          </div>
-
+        <Layout>
           <main>{children}</main>
+          </Layout>
         </SidebarContextProvider>
       </body>
     </html>
