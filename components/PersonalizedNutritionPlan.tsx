@@ -69,7 +69,7 @@ const PersonalizedNutritionPlan = () => {
     },
   ];
   return (
-    <div className="w-[430px] md:w-[550px] border-white shadow p-8 text-[#332a24] overflow-y-auto md:h-[600px] h-[700px]  shadow-[#9A7E6F] rounded-2xl m-5">
+    <div className="w-[430px] md:w-[550px] border-white shadow p-8 text-[#332a24] overflow-y-auto shadow-[#9A7E6F] rounded-2xl m-5">
       <div className="flex justify-between">
         <h1 className="font-bold ">Personalized Nutrition Plan</h1>
         <LuDog style={{ color: "#9A7E6F", fontSize: "1.5rem" }} />
@@ -91,7 +91,7 @@ const PersonalizedNutritionPlan = () => {
         </div>
       </div>
       <div>
-        <h1 className="mt-7 font-semibold">Top Food:</h1>
+        <h1 className="mt-7 pb-3 font-semibold">Top Food:</h1>
         <div className=" flex flex-wrap justify-center gap-4  mt-5">
           {topFood.map((t) => {
             return (
