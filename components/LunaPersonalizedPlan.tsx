@@ -13,11 +13,11 @@ const LunaPersonalizedPlan = () => {
       <table>
         <thead className="">
             <tr className="border-b  border-gray-500">
-                <td className="w-40 overflow-x-auto font-bold py-2">Category</td>
-                <td className="w-60 overflow-x-auto font-bold">Suppliment</td>
-                <td className="w-40 overflow-x-auto font-bold">Form</td>
-                <td className="w-40 overflow-x-auto font-bold">Frequency</td>
-                <td className="w-88 overflow-x-auto font-bold">Purpose</td>
+                <td className="w-40 overflow-x-auto text-[#9A7E6F] font-bold py-2">Category</td>
+                <td className="w-60 overflow-x-auto text-[#9A7E6F] font-bold">Suppliment</td>
+                <td className="w-40 overflow-x-auto text-[#9A7E6F] font-bold">Form</td>
+                <td className="w-40 overflow-x-auto text-[#9A7E6F] font-bold">Frequency</td>
+                <td className="w-88 overflow-x-auto text-[#9A7E6F] font-bold">Purpose</td>
             </tr>
         </thead>
         <tbody>
