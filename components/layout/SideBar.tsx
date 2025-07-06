@@ -67,7 +67,7 @@ const SideBar = () => {
             <FaDna style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="text-white text- font-semibold">DNA</p>
           </div>
-          <div className="flex space-x-2 bg-[#e1d0c6] px-2 py-2 rounded-xl text-[#54473F]">
+          <div className="flex space-x-2 bg-[#e1d0c6] border border-r-4 border-r-[#A67C52] px-2 py-2 rounded-xl text-[#54473F]">
             <FaHeartbeat style={{fontSize: "20px",  marginTop:'2px'  }} />
             <p className="   font-semibold">Care</p>
           </div>
