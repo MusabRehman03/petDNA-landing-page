@@ -3,11 +3,12 @@ import React from "react";
 import SideBar from "@/components/sidebar/SideBar";
 import AppBar from "@/components/appbar/AppBar";
 import { useSideBarContext } from "@/context/SideBarContext";
-const layout = ({
+const Layout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
+
   const { isOpen, setIsOpen } = useSideBarContext();
 
   return (
@@ -27,4 +28,4 @@ const layout = ({
   );
 };
 
-export default layout;
+export default Layout;

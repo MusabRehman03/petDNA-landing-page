@@ -1,14 +1,9 @@
 import React from "react";
-import { FaRegLaughBeam, FaLeaf } from "react-icons/fa";
-import { MdOutlineWaterDrop } from "react-icons/md";
-import { BsBook } from "react-icons/bs";
-import { RiTeamLine } from "react-icons/ri";
+
 import {
   GiKangaroo,
   GiBrain,
   GiToothbrush,
-  GiMeditation,
-  GiRunningShoe,
 } from "react-icons/gi";
 
 const DailyWellnessTip = () => {

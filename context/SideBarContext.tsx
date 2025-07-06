@@ -15,7 +15,7 @@ export function SidebarContextProvider({ children }: { children: React.ReactNode
     )
 
 }
-export function useSideBarContext(){
+export const useSideBarContext=()=>{
     const context = useContext(sidebarContext)
     if (!context) throw new Error("error in sidebar context");
   return context;
